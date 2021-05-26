@@ -10,15 +10,16 @@ function App() {
         <h1>Hello from V2</h1>
       </header>
       <body>
-      <script src="https://cdn.scaleflex.it/plugins/js-cloudimage-360-view/2.6.0/js-cloudimage-360-view.min.js"></script>
-
-      <div
-   class="cloudimage-360"
-   data-folder="https://elasticbeanstalk-us-east-2-182336593385.s3.us-east-2.amazonaws.com/Cherry+Blossom/"
-   data-filename="Cherry+Blossom_{index}.jpg"
-   data-amount="10"
-   data-index-zero-base="5"
-></div>
+        <script src="https://cdn.scaleflex.it/plugins/js-cloudimage-360-view/2.6.0/js-cloudimage-360-view.min.js">
+        <div
+          class="cloudimage-360"
+          data-folder="https://elasticbeanstalk-us-east-2-182336593385.s3.us-east-2.amazonaws.com/Cherry+Blossom/"
+          data-filename="Cherry+Blossom_{index}.jpg"
+          data-amount="10"
+          data-index-zero-base="5"
+        ></div>
+        </script>
+       
       </body>
     </div>
     
